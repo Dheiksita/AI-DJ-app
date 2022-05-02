@@ -1,0 +1,45 @@
+body{
+    background-size: cover;
+}
+.div_speed{
+    float: left;
+}
+.heading{
+    font-size: 23px;
+    width: 100%;
+    margin: 0px;
+}
+.note{
+    font-size: 18px;
+    color: purple;
+}
+.speed_img,.volume_img{
+    width: 200px;
+    border-radius: 100px;
+}
+#speed,#volume{
+    font-size: 23px;
+    margin: 15px;
+}
+.div_volume{
+    float: right;
+}
+.play{
+    width: 130px;
+    font-size: 25px;
+}
+.stop{
+    width: 130px;
+    font-size: 25px;
+}
+canvas{
+    border: 5px solid white;
+    border-radius: 20px;
+    animation-name: video;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+}
+@keyframes video{
+    from{box-shadow: 15px 15px 15px yellow;}
+    to{box-shadow: 15px 15px 15px red;}
+}
